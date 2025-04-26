@@ -1,0 +1,90 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width:800px ;
+    padding: 20px;
+    div{
+        display: flex;
+        align-items: center;
+    }
+    input{
+        width: 450px;
+        padding: 8px;
+        font-size: 18px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+    button{
+        width: 100px;
+        margin: 0 auto;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn{
+        background-color: #006446;
+        color: #fff;
+        padding: 8px 15px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .editBtn{
+        background-color: #002a46;
+        color: #fff;
+        padding: 8px 15px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        cursor: pointer;
+        display: none;
+    }
+}
+table{
+    border: 1px solid #eee;
+    width: 100%;
+
+    #noteSort{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
+thead{
+    background-color: #039e63;
+    color: #fff;
+    th{
+        padding: 8px;
+    }
+}
+#list{
+    tr:nth-child(even){
+        background-color: #c1d1fc49;
+    }
+    td{
+        text-align: center;
+        border: 1px solid #eee;
+        text-transform: capitalize;
+        padding: 8px;
+        font-weight: bold;
+    }
+    
+}
+    
